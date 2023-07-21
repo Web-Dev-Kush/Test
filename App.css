@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.zoom {
+  padding: 50px;
+  background-color: #ffff;
+  transition: transform 0.2s; 
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+#HiddenText {
+  display: block;
+}
+#DivForHoverItem:hover #HiddenText {
+  visibility:visible;
+}
+
+#DivForHoverItem {
+  height: 50px;
+  width: 300px;
+  background-color: red;
+}
+/* :hover {
+  visibility: hidden;
+} */
